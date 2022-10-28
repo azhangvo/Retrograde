@@ -3,3 +3,7 @@
 //
 
 #include "Frame.cuh"
+
+cv::Mat Frame::getMat() {
+    return mat;
+}

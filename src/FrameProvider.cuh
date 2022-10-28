@@ -9,6 +9,7 @@
 #include "Frame.cuh"
 
 class FrameProvider {
+public:
     virtual bool hasNextFrame() = 0;
 
     virtual Frame nextFrame() = 0;
